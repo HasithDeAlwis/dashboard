@@ -1,7 +1,7 @@
 // API information
 export const LOCAL_API_URL = 'http://localhost:3000/api';
-export const PROD_API_URL = 'https://hackerapi.onrender.com';
-export const DEV_API_URL = 'https://hackerapi.onrender.com';
+export const PROD_API_URL = 'https://hackerapi.onrender.com/api';
+export const DEV_API_URL = 'https://hackerapi.onrender.com/api';
 
 // Cache information
 export const CACHE_USER_KEY = 'userInfo';
