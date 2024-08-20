@@ -50,7 +50,9 @@ if (
   window.location.hostname === ''
 ) {
   API_URL = LOCAL_API_URL;
-} else if (window.location.hostname === 'app.mchacks.ca') {
+} else if (
+  window.location.hostname === 'https://develop--hasith-mchacks.netlify.app'
+) {
   API_URL = PROD_API_URL;
 } else {
   API_URL = DEV_API_URL;
